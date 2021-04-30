@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana2FernandoPerez.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+                <Label Text="CALIFICACIONES" HorizontalTextAlignment="Center" TextColor="Black" FontSize="20"/>
+        </Frame>
+
+            <Entry x:Name="txts1" Placeholder="Nota de seguimiento 1" Keyboard="Numeric"/>
+            <Entry x:Name="txte1" Placeholder="Nota del exámen 1" Keyboard="Numeric"/>
+            
+            <Entry x:Name="txts2" Placeholder="Nota de seguimiento 2" Keyboard="Numeric"/>
+            <Entry x:Name="txte2" Placeholder="Nota del exámen 2" Keyboard="Numeric"/>
+            <Entry x:Name="txtpromedio" Placeholder="NOTA FINAL" IsEnabled="False"/>
+        
+            <Button x:Name="btnSumar" Text="Promediar" Clicked="btnSumar_Clicked"/>
+
+
+    </StackLayout>
+
+</ContentPage>
